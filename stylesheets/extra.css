@@ -26,5 +26,5 @@ h1, h2, h3 { font-family: inherit; }
 .card .card-body { padding: .7em .9em 1em; }
 .card .card-body strong { display: block; margin-bottom: .3em; }
 .card .card-body p { margin: 0 0 .6em; font-size: .92em; }
-.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .6em; margin: 1.2em 0; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .6em; margin: 1.2em 0; }
 .gallery img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; }
