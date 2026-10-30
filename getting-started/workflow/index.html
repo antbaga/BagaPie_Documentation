@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/getting-started/workflow/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>How BagaPie works - BagaPie</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "How BagaPie works";
+        var mkdocs_page_input_path = "getting-started/workflow.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/getting-started/workflow/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">How BagaPie works</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#select-press-a-key-pick-a-tool">Select, press a key, pick a tool</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-bagapie-panel">The BagaPie panel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parametric-and-applied-tools">Parametric and applied tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#collections-created-by-bagapie">Collections created by BagaPie</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#assets-from-the-asset-browser">Assets from the Asset Browser</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/scatter/">Scattering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/array/">Array</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/boolean/">Boolean</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/create/">Create a pack</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Getting Started</li>
+      <li class="breadcrumb-item active">How BagaPie works</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/getting-started/workflow.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="how-bagapie-works">How BagaPie works</h1>
+<h2 id="select-press-a-key-pick-a-tool">Select, press a key, pick a tool</h2>
+<p>BagaPie tools are launched from pie menus in the 3D Viewport.</p>
+<ol>
+<li><strong>Select</strong> the objects the tool needs. When a tool uses a target (a surface, a curve), select the target <strong>last</strong> so it becomes the active object.</li>
+<li>Press <strong>J</strong> (Object Mode) or <strong>D</strong> (Edit Mode).</li>
+<li>Click a tool. Grayed-out buttons mean the current selection does not match what the tool needs.</li>
+</ol>
+<p>The selection depends on the tool:</p>
+<table>
+<thead>
+<tr>
+<th>Tool needs</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nothing</td>
+<td>Stair Spiral, Beam, Beam Wire: a new object is created at the 3D cursor</td>
+</tr>
+<tr>
+<td>One object</td>
+<td>Wall (mesh edges), Displace, Line Array, Proxy</td>
+</tr>
+<tr>
+<td>Objects + a target selected last</td>
+<td>Scatter, Snap Asset, Array Along Shape, Curve Deform</td>
+</tr>
+<tr>
+<td>A curve, or nothing</td>
+<td>Fence, Handrail: without a curve, BagaPie creates one and switches to Draw mode</td>
+</tr>
+<tr>
+<td>Faces or edges in Edit Mode</td>
+<td>Windows, Doors, Bool Through, Cable Creator</td>
+</tr>
+</tbody>
+</table>
+<p>The full list is in <a href="../../object-mode/">Object Mode Pie</a> and <a href="../../edit-mode/">Edit Mode Pie</a>. It is also available in <strong>Preferences &gt; Pie Menu Tools</strong>, with what each tool expects.</p>
+<h2 id="the-bagapie-panel">The BagaPie panel</h2>
+<p>Open the 3D Viewport sidebar with <strong>N</strong> and select the <strong>BagaPie</strong> tab. Press <strong>Ctrl + Alt + J</strong> to open the same panel as a pop-up.</p>
+<p>At the top, the <strong>modifier stack</strong> lists the BagaPie modifiers of the active object. Select one to display its settings below. Each line offers, depending on the modifier:</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✓</td>
+<td><strong>Apply</strong>: convert the modifier result to real geometry. Use this button rather than Blender's Apply: BagaPie applies all the modifiers that belong together.</td>
+</tr>
+<tr>
+<td>−</td>
+<td><strong>Remove</strong> the BagaPie modifier and its helper objects</td>
+</tr>
+<tr>
+<td>Monitor / camera</td>
+<td>Show or hide in the viewport / in renders</td>
+</tr>
+</tbody>
+</table>
+<p>Scatter layers, effectors and camera culling have extra icons in this list; see <a href="../../object-mode/scatter/">Scattering</a>.</p>
+<p>When a <a href="../../group/">group</a> is selected, the panel shows the group tools instead. Geometry Nodes modifiers prepared with <a href="../../geopack/node-to-panel/">Node to Panel</a> are also displayed there.</p>
+<p>The panel ends with links to the tutorial playlist and the documentation.</p>
+<h2 id="parametric-and-applied-tools">Parametric and applied tools</h2>
+<ul>
+<li><strong>Object Mode tools</strong> add modifiers. Their settings stay editable in the BagaPie panel until you apply or remove them.</li>
+<li><strong>Edit Mode tools</strong> run once on the selected faces or edges. You can tweak them in Blender's operator panel (bottom left) until you click elsewhere; then the result is permanent. <strong>Windows and Doors</strong> are the exception: they stay parametric.</li>
+</ul>
+<h2 id="collections-created-by-bagapie">Collections created by BagaPie</h2>
+<p>BagaPie stores helper objects in a <strong>BagaPie</strong> collection, with sub-collections such as <code>BagaPie_Scatter</code>, <code>BagaPie_Boolean</code> or <code>BagaPie_Assets</code>. Avoid deleting them manually while the related modifiers are still in use; use the remove button in the BagaPie panel instead.</p>
+<h2 id="assets-from-the-asset-browser">Assets from the Asset Browser</h2>
+<p>Several tools have an <strong>Asset Browser</strong> button next to them (Scatter, Scatter Paint, Snap Asset, Draw array). It imports the assets selected in an open Asset Browser and runs the tool with them.</p>
+<ul>
+<li>Open an Asset Browser area and select one or more <strong>Object</strong> or <strong>Collection</strong> assets.</li>
+<li>Browse a specific library. The <strong>All</strong> library is not supported.</li>
+<li>In the viewport, select the target mesh, then click the <strong>Asset Browser</strong> button in the pie menu.</li>
+</ul>
+<p>Imported assets are placed in the <code>BagaPie_Assets</code> collection.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../installation/" class="btn btn-neutral float-left" title="Installation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../shortcuts/" class="btn btn-neutral float-right" title="Shortcuts">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../installation/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../shortcuts/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/object-mode/array/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Array - BagaPie</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Array";
+        var mkdocs_page_input_path = "object-mode/array.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/object-mode/array/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/workflow/">How BagaPie works</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../scatter/">Scattering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Array</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#line-grid-and-circle">Line, Grid and Circle</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#curve">Curve</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#curve-deform">Curve Deform</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#draw">Draw</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#array-along-shape">Array Along Shape</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#remove">Remove</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boolean/">Boolean</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/create/">Create a pack</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Object Mode Pie (J)</li>
+      <li class="breadcrumb-item active">Array</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/object-mode/array.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="array">Array</h1>
+<p>The Array section repeats objects along a line, a grid, a circle, a curve, a drawn stroke or a surface. Unlike Blender's Array modifier, BagaPie arrays include random position, rotation and scale.</p>
+<h2 id="line-grid-and-circle">Line, Grid and Circle</h2>
+<p>Select <strong>one</strong> object (mesh or curve), press <strong>J</strong> and choose <strong>Line</strong>, <strong>Grid</strong> or <strong>Circle</strong>. Arrays support one object at a time; repeat the operation for each object.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Settings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Line</strong></td>
+<td>Count, Constant Offset, Relative Offset</td>
+</tr>
+<tr>
+<td><strong>Grid</strong></td>
+<td>Count X / Y, Constant Offset X / Y, Relative Offset X / Y, Midlevel X / Y</td>
+</tr>
+<tr>
+<td><strong>Circle</strong></td>
+<td>Count or Distance mode, Constant Distance, Count, Circle Resolution, Radius, Ring Count, Ring Offset, Ring Offset Z, Rotation, Align to Center</td>
+</tr>
+</tbody>
+</table>
+<p>All three have a <strong>Random</strong> section: Position, Rotation, Scale and Seed.</p>
+<figure class="demo">
+<p><img alt="Circle array: raise the radius, then the circle resolution and the ring count." src="../../assets/gifs/circle-array.gif" /></p>
+<figcaption>Circle array: raise the Radius and the Circle Resolution, switch between Count and Distance, add rings.</figcaption>
+</figure>
+<p>For a circle, a low <strong>Circle Resolution</strong> gives a polygonal shape: increase it for a round circle. Repetition can be based on a fixed <strong>Count</strong> or on the <strong>Distance</strong> between instances.</p>
+<h2 id="curve">Curve</h2>
+<p>Repeats an object along a curve.</p>
+<ol>
+<li>Select the object to repeat.</li>
+<li>Select the curve <strong>last</strong>.</li>
+<li>Press <strong>J</strong> and choose <strong>Curve</strong>.</li>
+</ol>
+<p>Settings: <strong>Count</strong> or <strong>Length</strong> mode, <strong>Target</strong> curve, <strong>Rotation</strong>, <strong>Scale</strong>, <strong>Random Position / Rotation / Scale</strong>, <strong>Seed</strong>, and <strong>Align to Vector</strong> with its <strong>Vector</strong>.</p>
+<h2 id="curve-deform">Curve Deform</h2>
+<p>Deforms objects along a curve, like Blender's Array + Curve modifiers, which it uses.</p>
+<ol>
+<li>Select the object(s).</li>
+<li>Select the curve <strong>last</strong>.</li>
+<li>Press <strong>J</strong> and choose <strong>Curve Deform</strong>.</li>
+</ol>
+<p>Settings: <strong>Axis</strong>, <strong>Use Relative Offset / Relative Offset</strong>, <strong>Use Constant Offset / Constant Offset</strong>. The default axis usually fits. This array has no random options.</p>
+<p>If BagaPie reports multi-user data, apply the rotation and scale of the objects first.</p>
+<h2 id="draw">Draw</h2>
+<p>Draws a curve and repeats the selected objects along it.</p>
+<ol>
+<li>Select one or more objects.</li>
+<li>Press <strong>J</strong> and choose <strong>Draw</strong> (or <strong>Asset Browser</strong> next to it to use assets selected in the Asset Browser).</li>
+<li>Draw in the viewport.</li>
+</ol>
+<p>BagaPie creates a new curve, enters Edit Mode with the Draw tool, and projects the stroke on the surfaces under the cursor. Settings: <strong>Count</strong> or <strong>Length</strong>, <strong>Target</strong>, <strong>Rotation</strong>, <strong>Position</strong>, <strong>Align to Curve</strong>, <strong>Scale Min / Max</strong>, random <strong>Position / Rotation</strong> and <strong>Seed</strong>.</p>
+<h2 id="array-along-shape">Array Along Shape</h2>
+<p>Repeats objects along the shape of a surface, following it by proximity.</p>
+<ol>
+<li>Select the object(s) to repeat.</li>
+<li>Select the surface to follow <strong>last</strong>.</li>
+<li>Press <strong>J</strong> and choose <strong>Array Along Shape</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Count</strong></td>
+<td>Number of instances</td>
+</tr>
+<tr>
+<td><strong>Precision / Distance</strong></td>
+<td>Accuracy of the spacing between instances</td>
+</tr>
+<tr>
+<td><strong>Position, Rotation X / Y / Normal, Scale Min / Max, Seed</strong></td>
+<td>Randomization</td>
+</tr>
+<tr>
+<td><strong>Orientation Angle</strong>, <strong>Smooth Rotation</strong></td>
+<td>Orientation of the instances</td>
+</tr>
+<tr>
+<td><strong>Lock Axis X / Y / Z</strong></td>
+<td>By default the array is locked to one axis. Unlock axes for a freer result</td>
+</tr>
+<tr>
+<td><strong>Target</strong></td>
+<td>The surface followed</td>
+</tr>
+</tbody>
+</table>
+<p>The array can fail on sharp edges (over about 70°). Add a Bevel modifier to the surface to round them.</p>
+<p>An Edit Mode version that also deforms the repeated mesh is in the <a href="../../edit-mode/mesh-tools/">Edit Mode pie</a>.</p>
+<h2 id="remove">Remove</h2>
+<p>Use <strong>Remove</strong> (−) in the modifier stack.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../effectors/" class="btn btn-neutral float-left" title="Effectors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../architecture/" class="btn btn-neutral float-right" title="Architecture">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../effectors/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../architecture/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

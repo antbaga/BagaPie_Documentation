@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/object-mode/scatter/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Scattering - BagaPie</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Scattering";
+        var mkdocs_page_input_path = "object-mode/scatter.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/object-mode/scatter/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/workflow/">How BagaPie works</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../">Overview</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Scattering</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#create-a-scatter-layer">Create a scatter layer</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#from-the-asset-browser">From the Asset Browser</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#asset-browser-panel">Asset Browser panel</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#scatter-paint">Scatter Paint</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#main-settings">Main settings</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tools">Tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#transform">Transform</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mask">Mask</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#effectors">Effectors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#safety-features">Safety features</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#save-as-a-preset">Save as a preset</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#apply-and-remove">Apply and remove</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tips">Tips</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../array/">Array</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../boolean/">Boolean</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/create/">Create a pack</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Object Mode Pie (J)</li>
+      <li class="breadcrumb-item active">Scattering</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/object-mode/scatter.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="scattering">Scattering</h1>
+<p>BagaPie scatters objects on a mesh surface with Geometry Nodes. Each scatter is a <strong>layer</strong>: a set of assets with its own density, transforms, paint and mask. A surface can hold as many layers as you need.</p>
+<h2 id="create-a-scatter-layer">Create a scatter layer</h2>
+<ol>
+<li>Select the objects to scatter (meshes, curves or empties).</li>
+<li>Select the target surface <strong>last</strong>, so it is the active object.</li>
+<li>Press <strong>J</strong> and choose <strong>Scatter</strong>.</li>
+</ol>
+<figure class="demo">
+<p><img alt="Select two assets and the ground, press J, then Scatter." src="../../assets/gifs/scatter.gif" /></p>
+<figcaption>Select the assets, then the ground. J &gt; Scatter creates a new layer.</figcaption>
+</figure>
+<p>The assets are moved to a collection under <code>BagaPie &gt; BagaPie_Scatter</code>. The first layer adds a <code>BagaPie_Scatter</code> modifier to the surface; each new scatter on the same surface adds a layer to it. The layers appear in the modifier stack at the top of the BagaPie panel. Use <strong>Rename Layer</strong> to keep them organized.</p>
+<p>BagaPie sets a starting <strong>Distance Min</strong> from the size of your assets.</p>
+<h3 id="from-the-asset-browser">From the Asset Browser</h3>
+<p>Next to <strong>Scatter</strong>, <strong>Scatter Paint</strong> and <strong>Snap Asset</strong>, the <strong>Asset Browser</strong> button uses the assets selected in an open Asset Browser instead of objects in the scene.</p>
+<ol>
+<li>In the Asset Browser, browse a library (not <strong>All</strong>) and select one or more assets.</li>
+<li>In the viewport, select the surface.</li>
+<li>Press <strong>J</strong> and click <strong>Asset Browser</strong> next to the tool.</li>
+</ol>
+<p>BagaPie imports the assets and creates the layer.</p>
+<h3 id="asset-browser-panel">Asset Browser panel</h3>
+<p>The Asset Browser also has a <strong>BagaPie Scatter Tools</strong> panel in its sidebar (Asset tab). With a mesh selected in the viewport:</p>
+<ul>
+<li><strong>Scatter Selection</strong> creates a layer from the selected assets.</li>
+<li><strong>Add Assets to layer</strong> adds the selected assets to the active layer.</li>
+<li>The layer list, <strong>Rename Layer</strong>, <strong>Distance Min</strong>, <strong>Density Max</strong>, <strong>Scale Min / Max</strong> and <strong>Random Rot Z</strong> give you the essentials without leaving the Asset Browser.</li>
+<li>The layer content is listed below, with per-asset buttons: select, show as bounds, proxy, remove from layer.</li>
+</ul>
+<h2 id="scatter-paint">Scatter Paint</h2>
+<p><strong>Scatter Paint</strong> creates the same layer, then switches the surface to Weight Paint. Assets only appear where you paint.</p>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Paint !</strong></td>
+<td>Enter paint mode for the active layer</td>
+</tr>
+<tr>
+<td><strong>Exit Paint Mode</strong></td>
+<td>Back to Object Mode</td>
+</tr>
+<tr>
+<td><strong>Add / Remove</strong></td>
+<td>Paint or erase</td>
+</tr>
+<tr>
+<td><strong>Clear Paint</strong></td>
+<td>Remove all painting from the layer</td>
+</tr>
+<tr>
+<td><strong>Invert Paint</strong></td>
+<td>Invert the painted area</td>
+</tr>
+<tr>
+<td><strong>Brush Profile</strong></td>
+<td>Softer or sharper brush falloff</td>
+</tr>
+<tr>
+<td><strong>Vertex Group</strong></td>
+<td>Each layer paints in its own vertex group; you can add, remove or swap groups</td>
+</tr>
+</tbody>
+</table>
+<p>Paint resolution depends on the mesh topology. Subdivide the surface if the painted areas look blocky.</p>
+<h2 id="main-settings">Main settings</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Distance Min</strong></td>
+<td>Minimum space between instances; prevents collisions</td>
+</tr>
+<tr>
+<td><strong>Density Max</strong></td>
+<td>Maximum number of points per square meter. Keep it as low as possible for performance</td>
+</tr>
+<tr>
+<td><strong>% Viewport Display</strong></td>
+<td>Share of instances shown in the viewport. All instances are rendered</td>
+</tr>
+<tr>
+<td><strong>Align Normal</strong></td>
+<td>How much instances follow the surface normal</td>
+</tr>
+<tr>
+<td><strong>Seed</strong></td>
+<td>Changes the random distribution</td>
+</tr>
+</tbody>
+</table>
+<p>When collisions do not matter (grass, for example), set <strong>Distance Min</strong> to 0 and control the amount with <strong>Density Max</strong> only.</p>
+<h2 id="tools">Tools</h2>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Add Assets</strong></td>
+<td>Add assets to the active layer. <strong>Source: View 3D</strong> uses the selected objects; <strong>Source: Asset Browser</strong> uses the assets selected in the Asset Browser</td>
+</tr>
+<tr>
+<td><strong>Remove Assets</strong></td>
+<td>Remove the selected assets from the active layer. Select the assets, then the surface, choose the layer and click. Works from the 3D view only</td>
+</tr>
+<tr>
+<td><strong>Camera Culling</strong></td>
+<td>Assign an existing camera culling to this layer (see <a href="../effectors/">Effectors</a>)</td>
+</tr>
+<tr>
+<td><strong>Layer Collection</strong></td>
+<td>The collection that holds the layer's assets</td>
+</tr>
+<tr>
+<td><strong>Proxy All</strong></td>
+<td>Add or remove a proxy on every asset of the layer</td>
+</tr>
+<tr>
+<td><strong>Select All Assets</strong></td>
+<td>Select the layer's assets</td>
+</tr>
+</tbody>
+</table>
+<p>Below, each asset of the layer has buttons to select it, display it as <strong>bounds</strong> (recommended for heavy scenes), toggle its <strong>proxy</strong>, or remove it from the layer.</p>
+<h2 id="transform">Transform</h2>
+<p><strong>Position</strong>, <strong>Rotation</strong>, <strong>Scale Min</strong> and <strong>Scale Max</strong> set the base transform of the instances. <strong>Randomize Transform</strong> adds random <strong>Position</strong>, <strong>Rotation</strong> and <strong>Scale</strong> with a min / max per axis. Random rotation on Z is the most common.</p>
+<h2 id="mask">Mask</h2>
+<p>The texture mask controls where assets appear.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Texture Mask</strong></td>
+<td>Enable the mask</td>
+</tr>
+<tr>
+<td><strong>Fac</strong></td>
+<td>Mask strength; 1 uses it fully</td>
+</tr>
+<tr>
+<td><strong>Scale</strong></td>
+<td>Size of the pattern</td>
+</tr>
+<tr>
+<td><strong>Offset</strong></td>
+<td>Spreads the mask more or less</td>
+</tr>
+<tr>
+<td><strong>Smooth</strong></td>
+<td>Softens the mask edges</td>
+</tr>
+<tr>
+<td><strong>Position</strong></td>
+<td>Moves the pattern</td>
+</tr>
+<tr>
+<td><strong>Invert Mask</strong></td>
+<td>Swap masked and unmasked areas</td>
+</tr>
+</tbody>
+</table>
+<p>Use the <strong>copy</strong> and <strong>paste</strong> buttons to reuse mask settings on another layer. Paste them on a second layer and invert the mask to place, for example, bushes between the rocks. Add a small offset to avoid overlaps. This is a quick way to break repetition.</p>
+<h2 id="effectors">Effectors</h2>
+<p>Point Effector and Camera Culling remove instances near objects or outside the camera view. See <a href="../effectors/">Effectors</a>.</p>
+<h2 id="safety-features">Safety features</h2>
+<p>Scattering a heavy asset on a large surface can slow Blender down. When you scatter, BagaPie estimates the result:</p>
+<ul>
+<li>If the estimated polycount (average asset polycount × instance count) exceeds the limit in the preferences, a dialog shows the approximate number of instances and lets you enable <strong>Use Proxy</strong> and lower <strong>Displayed Instances in %</strong>. If a camera culling exists, you can enable it too.</li>
+<li>Assets above the proxy polycount limit get a proxy automatically when <strong>Enable proxy by default</strong> is on.</li>
+<li>If the surface scale is not applied, BagaPie offers to <strong>Apply Scale</strong>. An unapplied scale changes the instance count and can deform instances.</li>
+</ul>
+<p>All limits are in <strong>Preferences &gt; Scattering Preferences</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Preference</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enable proxy by default</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Minimum polycount for proxy</td>
+<td>100,000</td>
+</tr>
+<tr>
+<td>Use security features for scattering</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Maximum polycount to trigger security features</td>
+<td>10,000,000</td>
+</tr>
+<tr>
+<td>Percentage of instances displayed in the viewport</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Propose to apply the scale of the target</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Use Camera Culling if available</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Keep assets in scene</td>
+<td>Off: when on, objects removed from a scatter collection are relinked to the scene collection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="save-as-a-preset">Save as a preset</h2>
+<p><strong>Save in GeoPack</strong> at the bottom of the scatter settings stores all layers of the surface as a reusable preset. See <a href="../../geopack/scatter-presets/">Scatter presets</a>.</p>
+<h2 id="apply-and-remove">Apply and remove</h2>
+<ul>
+<li><strong>Apply</strong> (✓ in the modifier stack) converts the scatter to real geometry.</li>
+<li><strong>Remove</strong> (−) deletes the layer.</li>
+</ul>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>The scatter depends on the surface area. If the surface is animated or deformed, the distribution changes over time.</li>
+<li>If the render differs from the viewport, check that the surface does not change at render time (for example a different Subdivision level), and check <strong>% Viewport Display</strong>.</li>
+<li>Textures on the ground make scattering look much more natural.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../snap-asset/" class="btn btn-neutral float-right" title="Snap Asset">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../snap-asset/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

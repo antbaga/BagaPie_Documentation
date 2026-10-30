@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/object-mode/boolean/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Boolean - BagaPie</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Boolean";
+        var mkdocs_page_input_path = "object-mode/boolean.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/object-mode/boolean/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/workflow/">How BagaPie works</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../scatter/">Scattering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../array/">Array</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Boolean</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#add-a-boolean">Add a boolean</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#settings">Settings</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#apply-and-remove">Apply and remove</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/create/">Create a pack</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../geopack/node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Object Mode Pie (J)</li>
+      <li class="breadcrumb-item active">Boolean</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/object-mode/boolean.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="boolean">Boolean</h1>
+<p>Quick, non-destructive booleans drawn directly in the viewport.</p>
+<h2 id="add-a-boolean">Add a boolean</h2>
+<ol>
+<li>Select a mesh.</li>
+<li>Press <strong>J</strong> and choose <strong>Union</strong> or <strong>Difference</strong>.</li>
+<li>BagaPie creates a hidden cutter object parented to your mesh, enters its Edit Mode and activates Blender's <strong>Add Cube</strong> tool.</li>
+<li>Draw as many volumes as you need, then leave Edit Mode.</li>
+</ol>
+<figure class="demo">
+<p><img alt="J &gt; Difference, then draw cutter volumes with the Add Cube tool." src="../../assets/gifs/boolean.gif" /></p>
+<figcaption>J &gt; Difference, then draw the cutting volumes with the Add Cube tool.</figcaption>
+</figure>
+<p>The cutter is displayed as bounds and is invisible in renders. It is stored in <code>BagaPie &gt; BagaPie_Boolean</code>.</p>
+<h2 id="settings">Settings</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Boolean Type</strong></td>
+<td>Union or Difference; Exact or Fast solver</td>
+</tr>
+<tr>
+<td><strong>Use self</strong>, <strong>Hole Tolerant</strong></td>
+<td>Blender boolean options, shown with the Exact solver</td>
+</tr>
+<tr>
+<td><strong>Boolean Target: Bevel Segments / Bevel Size</strong></td>
+<td>Bevel added to your mesh</td>
+</tr>
+<tr>
+<td><strong>Boolean Object: Bevel Segments / Bevel Size</strong></td>
+<td>Bevel added to the cutter</td>
+</tr>
+<tr>
+<td><strong>Displace</strong></td>
+<td>Small offset of the cutter, to avoid coplanar faces</td>
+</tr>
+<tr>
+<td><strong>Use Solidify / Solidify / Solidify Offset</strong></td>
+<td>Give thickness to the cutter, useful for flat shapes</td>
+</tr>
+<tr>
+<td><strong>Mirror XYZ</strong></td>
+<td>Mirror the cutter around your mesh, handy for symmetric sci-fi details</td>
+</tr>
+<tr>
+<td><strong>More Boolean !</strong></td>
+<td>Go back into the cutter's Edit Mode to add volumes; <strong>EXIT</strong> to leave</td>
+</tr>
+</tbody>
+</table>
+<h2 id="apply-and-remove">Apply and remove</h2>
+<p><strong>Apply</strong> (✓) applies the boolean and the related modifiers. <strong>Remove</strong> (−) deletes the boolean and its cutter.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../architecture/" class="btn btn-neutral float-left" title="Architecture"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../deformation/" class="btn btn-neutral float-right" title="Deformation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../architecture/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../deformation/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/geopack/create/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Create a pack - BagaPie</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Create a pack";
+        var mkdocs_page_input_path = "geopack/create.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/geopack/create/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/workflow/">How BagaPie works</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../getting-started/shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/scatter/">Scattering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/array/">Array</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/boolean/">Boolean</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../object-mode/manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Create a pack</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-create-the-pack">1. Create the pack</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-add-a-modifier-to-the-pack">2. Add a modifier to the pack</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#information">Information</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#usage-how-the-tool-is-set-up">Usage: how the tool is set up</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-icons">3. Icons</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-assets">4. Assets</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-edit-export-delete">5. Edit, export, delete</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">GeoPack</li>
+      <li class="breadcrumb-item active">Create a pack</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/geopack/create.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="create-a-pack">Create a pack</h1>
+<p>You can turn any Geometry Nodes modifier into a GeoPack tool, then share the pack as a <code>.geopack</code> file.</p>
+<h2 id="1-create-the-pack">1. Create the pack</h2>
+<ol>
+<li>In <strong>Preferences &gt; GeoPack</strong>, set the packs location if needed.</li>
+<li>Click <strong>Create New Pack</strong> and fill in:<ul>
+<li><strong>Pack Name</strong>, <strong>Pack Author(s)</strong>, <strong>Description</strong>, <strong>Pack Version</strong>, <strong>Pack URL</strong></li>
+<li><strong>Oldest Blender Version Compatible</strong></li>
+<li><strong>Pack License</strong>: Royalty Free, CC0, CC-BY, GPL or MIT</li>
+<li><strong>Pack Location</strong></li>
+</ul>
+</li>
+<li>Click <strong>Create !</strong>.</li>
+</ol>
+<h2 id="2-add-a-modifier-to-the-pack">2. Add a modifier to the pack</h2>
+<ol>
+<li>In the 3D Viewport, select the object (mesh or curve) that has your Geometry Nodes modifier.</li>
+<li>In the modifier stack, click the modifier to save so it becomes active (blue outline).</li>
+<li>Press <strong>J</strong> and choose <strong>New GeoPack Modifier</strong> (About section). With <a href="../node-to-panel/">Node to Panel</a>, the BagaPie panel also has a <strong>Save as GeoPack Modifier</strong> button.</li>
+<li>In the dialog, choose the pack (<strong>Add to pack</strong>), fill in the information and define how the tool is set up (see below).</li>
+<li>Click <strong>OK</strong>.</li>
+</ol>
+<p>The tool now appears in the GeoPack pie menu (<strong>V</strong>).</p>
+<p>The modifier name comes from its node tree name, without the <code>BP_</code> prefix if there is one. If the name is already used, BagaPie asks you to rename the node tree, or to <strong>Override</strong> the existing modifier.</p>
+<h3 id="information">Information</h3>
+<p><strong>Modifier name</strong>, <strong>Author(s)</strong>, <strong>Description</strong>, <strong>Modifier Version</strong>, <strong>Minimal Blender version</strong>, <strong>Contact</strong>, <strong>URL</strong>, <strong>NodeTree License</strong>.</p>
+<h3 id="usage-how-the-tool-is-set-up">Usage: how the tool is set up</h3>
+<p>This defines what the user must select and what happens when they click the tool.</p>
+<p><strong>Active Object Must Be</strong></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mesh</strong>, <strong>Curve</strong>, <strong>Mesh or Curve</strong></td>
+<td>The tool is grayed out unless the active object has this type. The modifier is added to it</td>
+</tr>
+<tr>
+<td><strong>None - Create new object</strong></td>
+<td>Ignores the selection and creates a new object, mesh or curve</td>
+</tr>
+</tbody>
+</table>
+<p>Depending on the choice, extra options appear:</p>
+<ul>
+<li><strong>New mesh:</strong> <strong>Switch to Edit Mode and enable Add Cube tool</strong>.</li>
+<li><strong>New curve:</strong> <strong>Switch to draw curve mode</strong>, with <strong>Curve Mode</strong> (2D / 3D) and <strong>Curve Projection</strong> (Cursor / Surface).</li>
+<li><strong>Existing mesh:</strong> <strong>Switch to Weight Paint</strong> (a new vertex group is created and assigned to an attribute input of your modifier), or <strong>Add Hair Curves</strong>.</li>
+<li><strong>Add Curve and switch to draw mode:</strong> a new curve is created and plugged into an object input of the modifier.</li>
+</ul>
+<p><strong>Use Selection</strong></p>
+<p>Uses the other selected objects. Choose which object types are accepted (<strong>Mesh</strong>, <strong>Curve</strong>, <strong>Camera</strong>, <strong>Empty</strong>, <strong>Text</strong>, <strong>Volume</strong>, <strong>Light</strong>), the <strong>Collection Name</strong> and the <strong>Collection Input</strong> of the modifier that receives them. <strong>Allow asset browser selection</strong> adds an Asset Browser button to the tool.</p>
+<p>The dialog summarizes the result under <strong>How your modifier will work</strong>. The same summary is shown to users in the pack details.</p>
+<h2 id="3-icons">3. Icons</h2>
+<p>Each modifier can have an icon in the pie menu. In the pack details, use <strong>Add Icon</strong>, the remove button, or the refresh button. Icon size in the pie menu is set by <strong>GeoPack Icon Scale</strong> in the preferences.</p>
+<h2 id="4-assets">4. Assets</h2>
+<p>A pack can include its own asset library:</p>
+<ol>
+<li>In the pack details, open <strong>Assets</strong> and click <strong>Create Asset Library</strong>.</li>
+<li>Click <strong>Add blend file to Pack's Assets Library</strong> to add <code>.blend</code> files.</li>
+</ol>
+<p>The library is created automatically for users who install the pack.</p>
+<h2 id="5-edit-export-delete">5. Edit, export, delete</h2>
+<ul>
+<li><strong>Edit:</strong> the pencil icons edit the pack information or a modifier.</li>
+<li><strong>Export:</strong> the export icon saves the pack as a <code>.geopack</code> file to share.</li>
+<li><strong>Delete:</strong> deletes the pack or a modifier. Deleting a pack also deletes all assets linked to it, and cannot be undone. Keep a copy.</li>
+</ul>
+<p>Save your preferences after creating or moving packs.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../" class="btn btn-neutral float-left" title="Install & use packs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../scatter-presets/" class="btn btn-neutral float-right" title="Scatter presets">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../scatter-presets/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://antbaga.github.io/BagaPie_Documentation/troubleshooting/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Troubleshooting - BagaPie</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Troubleshooting";
+        var mkdocs_page_input_path = "troubleshooting.md";
+        var mkdocs_page_url = "/BagaPie_Documentation/troubleshooting/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> BagaPie
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/workflow/">How BagaPie works</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting-started/shortcuts/">Shortcuts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Object Mode Pie (J)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/scatter/">Scattering</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/snap-asset/">Snap Asset</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/ivy/">Ivy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/effectors/">Effectors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/array/">Array</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/architecture/">Architecture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/boolean/">Boolean</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/deformation/">Deformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object-mode/manage/">Manage & Proxy</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Edit Mode Pie (D)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit-mode/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit-mode/windows-doors/">Windows & Doors</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit-mode/face-to/">Face To patterns</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit-mode/mesh-tools/">Mesh tools</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../group/">Group</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GeoPack</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../geopack/">Install & use packs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../geopack/create/">Create a pack</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../geopack/scatter-presets/">Scatter presets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../geopack/node-to-panel/">Node to Panel</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../assets/">Asset libraries</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../preferences/">Preferences</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Troubleshooting</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#everything-disappears-when-i-apply-a-modifier">Everything disappears when I apply a modifier</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#my-scatter-or-ivy-is-not-stable-during-an-animation">My scatter or ivy is not stable during an animation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#my-scatter-or-ivy-is-different-in-the-render">My scatter or ivy is different in the render</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-pie-menu-does-not-open">The pie menu does not open</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-edit-mode-pie-shows-setup-tool-or-restart-blender">The Edit Mode pie shows "SETUP TOOL !" or "Restart Blender"</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#a-tool-is-grayed-out">A tool is grayed out</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-asset-browser-button-does-nothing-or-is-grayed-out">The Asset Browser button does nothing or is grayed out</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#save-in-geopack-is-grayed-out">"Save in GeoPack" is grayed out</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#windows-shutters-are-missing">Windows: shutters are missing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-boolean-of-a-window-or-door-does-not-cut-the-whole-wall">The boolean of a window or door does not cut the whole wall</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-group-shortcut-is-lost-after-restarting-blender">The Group shortcut is lost after restarting Blender</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#still-stuck">Still stuck?</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tutorials/">Tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../support/">Help & Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../notes/">Release Notes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../license/">License</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">BagaPie</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Troubleshooting</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/antbaga/BagaPie_Documentation/edit/main/docs/troubleshooting.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="troubleshooting">Troubleshooting</h1>
+<h2 id="everything-disappears-when-i-apply-a-modifier">Everything disappears when I apply a modifier</h2>
+<p>Apply BagaPie modifiers from the BagaPie panel (<strong>N</strong>): click <strong>✓</strong> in the modifier stack. BagaPie applies all the modifiers that belong together. Modifiers have an order: apply the ones above yours first.</p>
+<h2 id="my-scatter-or-ivy-is-not-stable-during-an-animation">My scatter or ivy is not stable during an animation</h2>
+<p>Scatter and ivy positions are computed from the surface area of the target. If the object is animated or deformed, its area changes, and so does the distribution. There is currently no solution for this in BagaPie.</p>
+<h2 id="my-scatter-or-ivy-is-different-in-the-render">My scatter or ivy is different in the render</h2>
+<ul>
+<li>Check that the surface does not change at render time, for example a different Subdivision level for the render.</li>
+<li>Check <strong>% Viewport Display</strong>: the viewport can show fewer instances than the render.</li>
+</ul>
+<h2 id="the-pie-menu-does-not-open">The pie menu does not open</h2>
+<ul>
+<li><strong>J</strong> works in Object Mode, <strong>D</strong> in Edit Mode on a mesh with something selected, <strong>V</strong> in Object Mode.</li>
+<li>Check that your BagaPie version is compatible with your Blender version. See <a href="../getting-started/installation/#which-version-for-which-blender">Installation</a>.</li>
+<li>Check the shortcuts in <strong>Preferences &gt; Preferences &gt; Menu Shortcuts</strong>.</li>
+</ul>
+<h2 id="the-edit-mode-pie-shows-setup-tool-or-restart-blender">The Edit Mode pie shows "SETUP TOOL !" or "Restart Blender"</h2>
+<p>Click <strong>SETUP TOOL !</strong>, then restart Blender. This is needed once after installing or updating. See <a href="../assets/">Asset libraries</a>.</p>
+<h2 id="a-tool-is-grayed-out">A tool is grayed out</h2>
+<p>The selection does not match the tool. Check what to select in <a href="../object-mode/#what-to-select">Object Mode Pie</a>, or in <strong>Preferences &gt; Pie Menu Tools</strong>. For targets, select the target <strong>last</strong>.</p>
+<h2 id="the-asset-browser-button-does-nothing-or-is-grayed-out">The Asset Browser button does nothing or is grayed out</h2>
+<ul>
+<li>An Asset Browser must be open, with assets selected.</li>
+<li>Select assets in a specific library, not in <strong>All</strong>.</li>
+<li>Only <strong>Object</strong> and <strong>Collection</strong> assets are imported.</li>
+<li>The active object in the viewport must be a mesh.</li>
+</ul>
+<h2 id="save-in-geopack-is-grayed-out">"Save in GeoPack" is grayed out</h2>
+<ol>
+<li>Open <strong>Preferences &gt; GeoPack</strong> and set the packs location if asked.</li>
+<li>Select your object (mesh or curve).</li>
+<li>In the modifier stack, click the Geometry Nodes modifier to save: it gets a blue outline.</li>
+</ol>
+<h2 id="windows-shutters-are-missing">Windows: shutters are missing</h2>
+<p>Shutters only work on quad faces; they are disabled on n-gons. If a few shutters fail, tweak <strong>Min Height</strong>. See <a href="../edit-mode/windows-doors/">Windows &amp; Doors</a>.</p>
+<h2 id="the-boolean-of-a-window-or-door-does-not-cut-the-whole-wall">The boolean of a window or door does not cut the whole wall</h2>
+<p>The default is set for a 20 cm wall. Increase the wall thickness in the operator panel, or <strong>Boolean Thickness</strong> in the BagaPie panel.</p>
+<h2 id="the-group-shortcut-is-lost-after-restarting-blender">The Group shortcut is lost after restarting Blender</h2>
+<p>Click <strong>Add Group Shortcut</strong>, then save your preferences.</p>
+<h2 id="still-stuck">Still stuck?</h2>
+<p>Ask on <a href="../support/">Discord</a>. Include your Blender and BagaPie versions, and a screenshot of the BagaPie panel if possible.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../preferences/" class="btn btn-neutral float-left" title="Preferences"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../tutorials/" class="btn btn-neutral float-right" title="Tutorials">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>BagaCorp · Kiara Bagattini · Laura Mercadal</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/antbaga/BagaPie_Documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../preferences/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../tutorials/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
