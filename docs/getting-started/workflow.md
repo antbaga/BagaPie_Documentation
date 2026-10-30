@@ -2,6 +2,9 @@
 
 ## Select, press a key, pick a tool
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/-FqUbeQPQb4" title="BagaPie 11 - Introduction" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Introduction</em>.</p>
+
 BagaPie tools are launched from pie menus in the 3D Viewport.
 
 1. **Select** the objects the tool needs. When a tool uses a target (a surface, a curve), select the target **last** so it becomes the active object.

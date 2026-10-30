@@ -21,7 +21,7 @@ Scatter and ivy positions are computed from the surface area of the target. If t
 
 ## The Edit Mode pie shows "SETUP TOOL !" or "Restart Blender"
 
-Click **SETUP TOOL !**, then restart Blender. This is needed once after installing or updating. See [Asset libraries](assets.md).
+Click **SETUP TOOL !**, then restart Blender. This is needed once after installing or updating. See [Asset libraries](assets-library/libraries.md).
 
 ## A tool is grayed out
 

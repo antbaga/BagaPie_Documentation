@@ -2,6 +2,9 @@
 
 ## Install from Blender (recommended)
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/-FqUbeQPQb4?start=37" title="BagaPie 11 - Introduction" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Introduction</em>, from 0:37.</p>
+
 BagaPie is published on the Blender Extensions platform. Installing it from there gives you one-click updates.
 
 1. Open **Edit > Preferences > Get Extensions**.
@@ -29,7 +32,7 @@ Do not unzip the file. Blender installs it directly from the archive.
 
 These steps are optional, but recommended.
 
-1. **Parametric Library.** In the BagaPie preferences, open **Assets** and click **Setup BagaPie's Parametric Library CC-0**. This adds a **BagaPie Modifier** library to the Asset Browser. The Edit Mode pie menu (**D**) needs it, then a Blender restart. See [Asset libraries](../assets.md).
+1. **Parametric Library.** In the BagaPie preferences, open **Assets** and click **Setup BagaPie's Parametric Library CC-0**. This adds a **BagaPie Modifier** library to the Asset Browser. The Edit Mode pie menu (**D**) needs it, then a Blender restart. See [Asset libraries](../assets-library/libraries.md).
 2. **Group shortcut.** If BagaPie offers **Add Group Shortcut** (in the panel, the pie menu or the preferences), click it to use **Ctrl + G** for BagaPie groups, then save your preferences. See [Group](../group.md).
 3. **GeoPack location.** Before installing a GeoPack, choose a folder for your packs in **Preferences > GeoPack**. See [GeoPack](../geopack/index.md).
 

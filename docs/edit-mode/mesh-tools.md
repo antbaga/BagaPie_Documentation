@@ -2,6 +2,9 @@
 
 All tools on this page are applied: adjust them in the operator panel (bottom left) before clicking elsewhere.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/NYiU-bJsxK0?start=185" title="BagaPie 11 - Edit Mode Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Edit Mode Tools</em>, from 3:05.</p>
+
 ## Cable Creator
 
 Creates cables from selected **edges**.

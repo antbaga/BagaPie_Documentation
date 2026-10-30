@@ -2,6 +2,9 @@
 
 Windows and doors are cut into a wall from selected faces. Unlike the other Edit Mode tools, they stay **parametric**.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/NYiU-bJsxK0?start=35" title="BagaPie 11 - Edit Mode Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Edit Mode Tools</em>, from 0:35.</p>
+
 ## Add windows or doors
 
 1. In Edit Mode, select one or more faces of the wall. Quads work best; n-gons are supported.

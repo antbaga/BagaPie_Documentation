@@ -19,4 +19,5 @@ You can also contact us through SuperHive.
 - [BagaPie on the Blender Extensions platform](https://extensions.blender.org/add-ons/bagapie/)
 - [Full changelog](https://extensions.blender.org/add-ons/bagapie/versions/)
 - [BagaPie Assets on SuperHive](https://superhivemarket.com/products/bagapie-assets)
+- [More add-ons](assets-library/more-addons.md)
 - [Tutorials](tutorials.md)

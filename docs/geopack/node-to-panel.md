@@ -2,6 +2,9 @@
 
 Node to Panel turns the inputs of your own Geometry Nodes modifiers into a clean interface in the BagaPie panel. You organize inputs with prefixes. It is useful for complex node trees and for GeoPack tools, but works without GeoPack too.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/9bV6AArrWeM" title="BagaPie V9 GeoPack - Nodes to Panel" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie V9 GeoPack - Nodes to Panel</em>.</p>
+
 ## Display a modifier
 
 Add `BP_` at the beginning of the **node tree** name (not the modifier name). The modifier then appears in the BagaPie panel of the object.

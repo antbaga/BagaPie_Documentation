@@ -2,6 +2,9 @@
 
 ## Displace
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk?start=575" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>, from 9:35.</p>
+
 Sets up a displacement in one click: a Subdivision modifier, a Displace modifier and a texture.
 
 Select one mesh, press **J** and choose **Displace**.

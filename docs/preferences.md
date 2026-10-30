@@ -26,7 +26,7 @@ Pack location, installed packs, pack creation and storage. See [GeoPack](geopack
 
 ## Assets
 
-Parametric Library setup and BagaPie Assets packs. See [Asset libraries](assets.md).
+Parametric Library setup and BagaPie Assets packs. See [Asset libraries](assets-library/libraries.md).
 
 ## Scattering Preferences
 

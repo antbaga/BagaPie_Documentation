@@ -2,6 +2,9 @@
 
 The **Generate** section of the **D** pie menu converts the selected faces into a pattern:
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/NYiU-bJsxK0?start=160" title="BagaPie 11 - Edit Mode Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Edit Mode Tools</em>, from 2:40.</p>
+
 - **Face to Grid**
 - **Face to Paving**
 - **Face to Perforated Grid**

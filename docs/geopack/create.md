@@ -2,6 +2,9 @@
 
 You can turn any Geometry Nodes modifier into a GeoPack tool, then share the pack as a `.geopack` file.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/hYTzocYUoo0" title="BagaPie 11 - GeoPack Create" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - GeoPack Create</em>.</p>
+
 ## 1. Create the pack
 
 1. In **Preferences > GeoPack**, set the packs location if needed.

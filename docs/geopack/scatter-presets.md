@@ -2,6 +2,9 @@
 
 A complete scatter setup can be saved in a GeoPack and reused in one click, in any file. Applying a preset replaces the current scatter of the surface.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/SbOvA8Yzdrw" title="BagaPie 11 - Scatter Presets" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Scatter Presets</em>.</p>
+
 ## Save a preset
 
 1. Set up the scatter on a surface. See [Scattering](../object-mode/scatter.md).
@@ -35,4 +38,4 @@ If the surface already has a scatter, BagaPie warns you that the new scatter wil
 
 The preset is a modifier of the pack: you can change its preview or information in **Preferences > GeoPack**. Export the pack as a `.geopack` file to share it.
 
-The paid **BagaPie Assets** library includes around forty scatter presets.
+The [BagaPie Assets](../assets-library/bagapie-assets.md) Full edition includes 40 ready-made scatter presets.

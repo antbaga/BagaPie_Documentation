@@ -2,6 +2,9 @@
 
 In Edit Mode on a mesh, select faces or edges and press **D**. These tools are Geometry Nodes tools that only affect the selection.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/NYiU-bJsxK0" title="BagaPie 11 - Edit Mode Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Edit Mode Tools</em>.</p>
+
 | Position | Section | Tools | Select |
 | --- | --- | --- | --- |
 | Left | **Architecture** | Window Modern, Window Classic, Door Simple, Door Double, Cable Creator | Faces (Cable Creator: edges) |
@@ -24,7 +27,7 @@ The tools are stored in the **BagaPie Modifier** asset library (the Parametric L
 1. Click **SETUP TOOL !** (or **Update BagaPie Parametric Library**).
 2. Restart Blender. Until then, the pie menu shows **Restart Blender**.
 
-This is needed only once. See [Asset libraries](../assets.md).
+This is needed only once. See [Asset libraries](../assets-library/libraries.md).
 
 ## Pages
 

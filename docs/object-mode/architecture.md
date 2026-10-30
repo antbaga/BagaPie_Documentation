@@ -2,6 +2,9 @@
 
 The Architecture section of the **J** pie menu creates fully parametric building elements. Every element has a **Material** section in the BagaPie panel.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk?start=160" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>, from 2:40.</p>
+
 Tools fall into three groups:
 
 - **No selection needed:** a new object is created at the 3D cursor.

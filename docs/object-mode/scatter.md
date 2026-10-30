@@ -2,6 +2,9 @@
 
 BagaPie scatters objects on a mesh surface with Geometry Nodes. Each scatter is a **layer**: a set of assets with its own density, transforms, paint and mask. A surface can hold as many layers as you need.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/oMKetYzkAI0" title="BagaPie 11 - Scattering" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Scattering</em>.</p>
+
 ## Create a scatter layer
 
 1. Select the objects to scatter (meshes, curves or empties).
@@ -35,6 +38,9 @@ The Asset Browser also has a **BagaPie Scatter Tools** panel in its sidebar (Ass
 - **Add Assets to layer** adds the selected assets to the active layer.
 - The layer list, **Rename Layer**, **Distance Min**, **Density Max**, **Scale Min / Max** and **Random Rot Z** give you the essentials without leaving the Asset Browser.
 - The layer content is listed below, with per-asset buttons: select, show as bounds, proxy, remove from layer.
+
+!!! tip "Ready-to-scatter assets"
+    The demos use [BagaPie Assets](../assets-library/bagapie-assets.md): up to 750 trees, plants, flowers and rocks, and 40 complete scatter presets. The library funds BagaPie's development.
 
 ## Scatter Paint
 

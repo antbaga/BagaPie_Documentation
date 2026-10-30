@@ -2,6 +2,9 @@
 
 The Ivy tool grows procedural ivy on one or more target meshes.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk?start=93" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>, from 1:33.</p>
+
 ## Add ivy
 
 1. Place the 3D cursor where the ivy should start (**Shift + right click**).
@@ -44,6 +47,9 @@ To add another ivy that shares the same targets and settings, place the 3D curso
 **Collections**
 
 **Target**, **Asset** and **Emitter** are the collections used by the modifier: the target meshes, the leaf assets and the ivy sources. You normally do not need to change them.
+
+!!! tip "Need more control?"
+    [Baga Ivy Generator](../assets-library/more-addons.md) is our dedicated ivy add-on: simulation, hand-drawn growth, over 300 assets and 70 species. See its [documentation](https://antbaga.github.io/BagaIvy_Documentation/).
 
 ## Apply and remove
 

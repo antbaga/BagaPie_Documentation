@@ -2,6 +2,9 @@
 
 Press **J** in Object Mode. The pie menu groups the procedural tools by section.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>.</p>
+
 | Position | Section | Tools |
 | --- | --- | --- |
 | Top | **Scattering** | Scatter, Scatter Paint, Snap Asset (each with an Asset Browser button), Ivy |

@@ -2,6 +2,9 @@
 
 The Array section repeats objects along a line, a grid, a circle, a curve, a drawn stroke or a surface. Unlike Blender's Array modifier, BagaPie arrays include random position, rotation and scale.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk?start=296" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>, from 4:56.</p>
+
 ## Line, Grid and Circle
 
 Select **one** object (mesh or curve), press **J** and choose **Line**, **Grid** or **Circle**. Arrays support one object at a time; repeat the operation for each object.

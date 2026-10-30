@@ -2,6 +2,9 @@
 
 Effectors are extra masks for a scatter layer. They appear in the pie menu only when the active object has a BagaPie scatter; otherwise the section shows **No Scatter available**.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/oMKetYzkAI0?start=350" title="BagaPie 11 - Scattering" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Scattering</em>, from 5:50.</p>
+
 Both effectors apply to **one layer**: select that layer in the modifier stack first. With several layers, repeat the operation for each layer.
 
 ## Point Effector

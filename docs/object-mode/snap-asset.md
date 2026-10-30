@@ -2,6 +2,9 @@
 
 Snap Asset places assets one by one on a surface, where you click.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/EKUg_FvDrgk?start=16" title="BagaPie 11 - Parametric Tools" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Parametric Tools</em>, from 0:16.</p>
+
 ## Place assets
 
 1. Select the assets to place.

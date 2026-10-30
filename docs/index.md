@@ -30,12 +30,15 @@ Most tools stay parametric: you can change them at any time from the BagaPie pan
 | Add windows and doors to a wall | [Windows & Doors](edit-mode/windows-doors.md) |
 | Organize a scene with groups and instances | [Group](group.md) |
 | Install, create or share custom tools | [GeoPack](geopack/index.md) |
+| Get ready-to-scatter vegetation and rocks | [BagaPie Assets](assets-library/bagapie-assets.md) |
 
 [Watch the tutorial playlist](tutorials.md) · [Get help on Discord](support.md)
 
 ## Support the development
 
-BagaPie is free. Its development is funded by the optional **BagaPie Assets** library and by our other add-ons. BagaPie works the same way with your own assets.
+BagaPie is free. Its development and maintenance are funded by the optional **[BagaPie Assets](assets-library/bagapie-assets.md)** library: up to 750 assets and 40 scatter presets made for BagaPie. Our [other add-ons](assets-library/more-addons.md) help too. BagaPie works the same way with your own assets.
+
+[Get BagaPie Assets](https://superhivemarket.com/products/bagapie-assets){ .btn .btn-neutral }
 
 ---
 

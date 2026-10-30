@@ -1,4 +1,4 @@
-# Asset libraries
+# Setup & installation
 
 BagaPie uses two kinds of asset libraries. Both are set up from **Preferences > Assets**.
 
@@ -6,15 +6,13 @@ BagaPie uses two kinds of asset libraries. Both are set up from **Preferences > 
 
 Click **Setup BagaPie's Parametric Library CC-0**. BagaPie adds a library named **BagaPie Modifier** to the Asset Browser, filled with BagaPie presets.
 
-This library also contains the Geometry Nodes tools of the [Edit Mode pie](edit-mode/index.md). After the first setup, **restart Blender**: the tools are only available after a restart.
+This library also contains the Geometry Nodes tools of the [Edit Mode pie](../edit-mode/index.md). After the first setup, **restart Blender**: the tools are only available after a restart.
 
 If the Edit Mode pie shows **Tool File missing !** after an update, click **Update BagaPie Parametric Library**, then restart Blender.
 
-## BagaPie Assets (optional, paid)
+## BagaPie Assets packs
 
-**BagaPie Assets** is an asset library sold separately on SuperHive and Gumroad. It funds the development of BagaPie. It includes vegetation, rocks and other assets, and around forty scatter presets for GeoPack.
-
-BagaPie Assets is optional: every BagaPie tool works the same way with your own assets.
+[BagaPie Assets](bagapie-assets.md) is the optional asset library that funds BagaPie: up to 750 assets and 40 scatter presets. Every BagaPie tool also works with your own assets.
 
 ### Install the packs
 

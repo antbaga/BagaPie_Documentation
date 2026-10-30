@@ -17,7 +17,7 @@ The parametric library installed from the preferences is released under **CC0**.
 
 ## BagaPie Assets
 
-**BagaPie Assets** is a separate product with its own license. See its product page on SuperHive or Gumroad.
+[BagaPie Assets](assets-library/bagapie-assets.md) is a separate product with its own license: royalty-free for personal and commercial work, no resale or sharing. See its [product page](https://superhivemarket.com/products/bagapie-assets) for the full terms.
 
 ## Third-party GeoPacks
 

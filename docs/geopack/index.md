@@ -2,6 +2,9 @@
 
 GeoPack lets you install, create and share custom tools for BagaPie. A pack is a set of Geometry Nodes modifiers, with their usage rules, icons, and optionally an asset library and scatter presets. Packs are shared as `.geopack` files.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/Dk8okiAreTM" title="BagaPie 11 - GeoPack First Steps" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - GeoPack First Steps</em>.</p>
+
 Think of a pack as a small add-on built with Geometry Nodes, without code. Packs you create are yours: you can export, share or sell them, and anyone with BagaPie can install them.
 
 ## Set the pack location
@@ -20,7 +23,7 @@ Packs already in that folder are detected and listed. You can move packs to anot
 
 If the pack includes assets, BagaPie creates an asset library for it automatically.
 
-A free **Demo Pack** (`Demo Pack.geopack`) comes with the BagaPie download on SuperHive and Gumroad.
+A free **Demo Pack** (`Demo Pack.geopack`) comes with the BagaPie download on SuperHive and Gumroad. The [Stone Column Generator for BagaPie](https://superhivemarket.com/products/stone-column-generator-for-bagapie) is another example of a pack, and [BagaPie Assets](../assets-library/bagapie-assets.md) Full includes 40 scatter presets as GeoPack tools.
 
 ## Pack details
 

@@ -2,6 +2,9 @@
 
 BagaPie groups put objects inside a common bounding box. They make large scenes easier to manage, work in animation, and can be turned into instances to lighten a scene.
 
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/9JGWxrGRHMI" title="BagaPie 11 - Group" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="video-caption">Video: <em>BagaPie 11 - Group</em>.</p>
+
 ## Create a group
 
 Select the objects, press **J** and choose **Create Group**, or press **Ctrl + G**.

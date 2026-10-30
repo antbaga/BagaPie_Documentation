@@ -14,7 +14,9 @@ nav:
       - Installation: getting-started/installation.md
       - How BagaPie works: getting-started/workflow.md
       - Shortcuts: getting-started/shortcuts.md
-  - Object Mode Pie (J):
+      - Preferences: preferences.md
+      - Tutorials: tutorials.md
+  - Object Mode (J):
       - Overview: object-mode/index.md
       - Scattering: object-mode/scatter.md
       - Snap Asset: object-mode/snap-asset.md
@@ -24,25 +26,27 @@ nav:
       - Architecture: object-mode/architecture.md
       - Boolean: object-mode/boolean.md
       - Deformation: object-mode/deformation.md
+      - Group: group.md
       - Manage & Proxy: object-mode/manage.md
-  - Edit Mode Pie (D):
+  - Edit Mode (D):
       - Overview: edit-mode/index.md
       - Windows & Doors: edit-mode/windows-doors.md
       - Face To patterns: edit-mode/face-to.md
       - Mesh tools: edit-mode/mesh-tools.md
-  - Group: group.md
-  - GeoPack:
+  - GeoPack (V):
       - Install & use packs: geopack/index.md
       - Create a pack: geopack/create.md
       - Scatter presets: geopack/scatter-presets.md
       - Node to Panel: geopack/node-to-panel.md
-  - Asset libraries: assets.md
-  - Preferences: preferences.md
-  - Troubleshooting: troubleshooting.md
-  - Tutorials: tutorials.md
-  - Help & Support: support.md
-  - Release Notes: notes.md
-  - License: license.md
+  - Assets:
+      - BagaPie Assets: assets-library/bagapie-assets.md
+      - Setup & installation: assets-library/libraries.md
+      - More add-ons: assets-library/more-addons.md
+  - Help:
+      - Troubleshooting: troubleshooting.md
+      - Help & Support: support.md
+      - Release Notes: notes.md
+      - License: license.md
 plugins:
   - search
 markdown_extensions:
