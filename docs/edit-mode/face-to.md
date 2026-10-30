@@ -1,0 +1,16 @@
+# Face To patterns
+
+The **Generate** section of the **D** pie menu converts the selected faces into a pattern:
+
+- **Face to Grid**
+- **Face to Paving**
+- **Face to Perforated Grid**
+- **Face to Plank**
+
+1. In Edit Mode, select the faces.
+2. Press **D** and choose a pattern.
+3. Adjust it in the operator panel at the bottom left.
+
+As long as the operator panel is visible, you can change the pattern. Once you click elsewhere, the result is applied and can no longer be edited.
+
+The settings match the parametric versions in the Object Mode pie. To keep a pattern editable on a whole object, use [Paving, Grid, Perforated Grid or Plank](../object-mode/architecture.md#paving-grid-perforated-grid-plank) from the **J** pie instead.

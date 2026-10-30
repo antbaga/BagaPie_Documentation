@@ -1,0 +1,56 @@
+site_name: BagaPie
+site_description: User documentation for BagaPie, a free toolbox for architecture and environments in Blender.
+site_url: https://antbaga.github.io/BagaPie_Documentation/
+repo_url: https://github.com/antbaga/BagaPie_Documentation
+edit_uri: edit/main/docs/
+copyright: BagaCorp · Kiara Bagattini · Laura Mercadal
+theme:
+  name: readthedocs
+  highlightjs: false
+  navigation_depth: 3
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - How BagaPie works: getting-started/workflow.md
+      - Shortcuts: getting-started/shortcuts.md
+  - Object Mode Pie (J):
+      - Overview: object-mode/index.md
+      - Scattering: object-mode/scatter.md
+      - Snap Asset: object-mode/snap-asset.md
+      - Ivy: object-mode/ivy.md
+      - Effectors: object-mode/effectors.md
+      - Array: object-mode/array.md
+      - Architecture: object-mode/architecture.md
+      - Boolean: object-mode/boolean.md
+      - Deformation: object-mode/deformation.md
+      - Manage & Proxy: object-mode/manage.md
+  - Edit Mode Pie (D):
+      - Overview: edit-mode/index.md
+      - Windows & Doors: edit-mode/windows-doors.md
+      - Face To patterns: edit-mode/face-to.md
+      - Mesh tools: edit-mode/mesh-tools.md
+  - Group: group.md
+  - GeoPack:
+      - Install & use packs: geopack/index.md
+      - Create a pack: geopack/create.md
+      - Scatter presets: geopack/scatter-presets.md
+      - Node to Panel: geopack/node-to-panel.md
+  - Asset libraries: assets.md
+  - Preferences: preferences.md
+  - Troubleshooting: troubleshooting.md
+  - Tutorials: tutorials.md
+  - Help & Support: support.md
+  - Release Notes: notes.md
+  - License: license.md
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: false
+extra_css:
+  - stylesheets/extra.css
